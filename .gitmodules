@@ -1,3 +1,3 @@
 [submodule "tt-rss"]
 	path = tt-rss
-	url = https://github.com/275256226/tt-rss.git
+	url = https://git.tt-rss.org/fox/tt-rss.git

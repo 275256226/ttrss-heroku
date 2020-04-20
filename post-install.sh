@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Injecting configuration file..."
+git clone https://git.tt-rss.org/fox/tt-rss.git tt-rss
 cp ttrss-config.php tt-rss/config.php
 
 echo "Fixing permissions..."

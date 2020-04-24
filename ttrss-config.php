@@ -36,7 +36,7 @@
 	// multiple users and authentication. Enabling this assumes you have
 	// your tt-rss directory protected by other means (e.g. http auth).
 
-	define('SIMPLE_UPDATE_MODE', true);
+	define('SIMPLE_UPDATE_MODE', false);
 	// Enables fallback update mode where tt-rss tries to update feeds in
 	// background while tt-rss is open in your browser.
 	// If you don't have a lot of feeds and don't want to or can't run

@@ -15,4 +15,5 @@ if ! psql "$DATABASE_URL" -c 'SELECT schema_version FROM ttrss_version' &>/dev/n
     psql "$DATABASE_URL" < tt-rss/schema/ttrss_schema_pgsql.sql >/dev/null
 fi
 
+git clone https://github.com/DigitalDJ/tinytinyrss-fever-plugin tt-rss/plugins.local/fever
 php plugins-installer.php
